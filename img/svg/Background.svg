@@ -1,0 +1,19 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1373" viewBox="0 0 1920 1373">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.765" y1="0.174" x2="0.012" y2="0.978" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b881ea"/>
+      <stop offset="1" stop-color="#199ce8"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="1918" height="1373"/>
+  <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,1077.043.2,0S407.6,3.179,776.487,0c136.756,22.307,196.988,10.31,348.689,108.167,188.7,153.824,156.885,135.847,301.1,213.044,136.8,59.219,168.22,39.873,291-16.681C1823.787,255.47,1920,314.666,1920,314.666v761.373s-284.054,269.736-961.413,269.736S0,1077.043,0,1077.043Z"/>
+</svg>
