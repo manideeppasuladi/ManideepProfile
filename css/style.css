@@ -1,0 +1,187 @@
+.view {
+    background: url("../img/svg/Background.svg")no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+html,
+body,
+header {
+    scroll-behavior: smooth;
+    height: 110%;
+}
+
+.view {
+    width: 100%;
+    height: 110%;
+}
+
+.text-area {
+    z-index: 3;
+    display: overlay;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    .child {
+        position: absolute;
+        color: yellow;
+        top: 5%;
+        left: 26%;
+        opacity: 0.3;
+    }
+    #downarrow {
+        margin-top: 10vh;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {
+    .child {
+        position: absolute;
+        color: yellow;
+        top: 5%;
+        left: 22%;
+        opacity: 0.3;
+    }
+    .team {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 12vw;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+    .child {
+        position: absolute;
+        color: yellow;
+        top: 5%;
+        left: 25%;
+        opacity: 0.3;
+    }
+    .team {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 12vw;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .child {
+        position: absolute;
+        color: yellow;
+        top: 5%;
+        left: 20%;
+        opacity: 0.3;
+    }
+    .team {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 4vw;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .child {
+        position: absolute;
+        color: yellow;
+        top: 5%;
+        left: 20%;
+        opacity: 0.3;
+    }
+    .team {
+        font-family: 'Exo 2', sans-serif;
+        font-size: 4vw;
+    }
+}
+
+
+/* Mass Coders */
+
+.masscoders {
+    font-family: 'Exo 2', sans-serif;
+}
+
+#coders {
+    color: purple;
+}
+
+.team {
+    font-family: 'Exo 2', sans-serif;
+}
+
+.cover {
+    background-image: url("../images/Background.png") no-repeat center center;
+    background-color: white;
+    width: 100%;
+}
+
+.parent-box {
+    position: relative;
+    color: #63FF9C;
+}
+
+#contact::before {
+    display: block;
+    content: " ";
+    margin-top: -65px;
+    height: 65px;
+    visibility: hidden;
+}
+
+
+/* This makes the design text unselectable*/
+
+.child {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.card {
+    background: #f1f1f1;
+    height: 40%;
+}
+
+.icons img {
+    width: 30px;
+}
+
+.image img {
+    background: #000;
+    width: 150px;
+    height: 150px
+}
+
+.facebook :hover {
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.8) rotate(10deg);
+}
+
+.gmail :hover {
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.8) rotate(10deg);
+}
+
+.linkedin :hover {
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.8) rotate(10deg);
+}
+
+.github :hover {
+    transition: all 600ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform: scale(1.8) rotate(10deg);
+}
